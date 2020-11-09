@@ -1,0 +1,23 @@
+{
+	"components": {
+	    "x-550126-filter-list": {
+	        "innerComponents": [
+				"now-button",
+				"now-heading",
+				"now-loader",
+				"now-card",
+				"now-template-card",
+				"now-template-card-attachment",
+				"now-template-card-omnichannel",
+				"now-modal"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core"],
+				"label": "Filter list",
+				"icon": "document-outline",
+				"description": "Incident filtering"
+			}
+	    }
+	},
+	"scopeName": "x_550126_test_fi_0"
+}
