@@ -257,7 +257,7 @@ createCustomElement('x-550126-filter-list', {
 
 			dispatch('FETCH_FILTER_INCIDENTS_HTTP', {
 				sysparm_display_value: 'all',
-				sysparm_query: filter.field + filter.operation + value,
+				sysparm_query: filter.field + filter.operation + value + '^' + (filter.order === "order_a_z" ? "ORDERBY" : "ORDERBYDESC") + filter.field,
 				sysparm_fields: SYS_PARMS_FIELDS
 			});
 
